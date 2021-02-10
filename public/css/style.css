@@ -1,0 +1,434 @@
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
+}
+
+div.wpcf7 .screen-reader-response {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px solid #ff0000;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px solid #ffa500;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px solid #f7e700;
+}
+
+.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	color: #f00;
+	font-size: 1em;
+	font-weight: normal;
+	display: block;
+}
+
+.use-floating-validation-tip span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 20%;
+	left: 20%;
+	z-index: 100;
+	border: 1px solid #ff0000;
+	background: #fff;
+	padding: .2em .8em;
+}
+
+span.wpcf7-list-item {
+	display: inline-block;
+	margin: 0 0 0 1em;
+}
+
+span.wpcf7-list-item-label::before,
+span.wpcf7-list-item-label::after {
+	content: " ";
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+div.wpcf7 .ajax-loader {
+	visibility: hidden;
+	display: inline-block;
+	background-image: url('../../images/ajax-loader.gif');
+	width: 16px;
+	height: 16px;
+	border: none;
+	padding: 0;
+	margin: 0 0 0 4px;
+	vertical-align: middle;
+}
+
+div.wpcf7 .ajax-loader.is-active {
+	visibility: visible;
+}
+
+div.wpcf7 div.ajax-error {
+	display: none;
+}
+
+div.wpcf7 .placeheld {
+	color: #888;
+}
+
+div.wpcf7 .wpcf7-recaptcha iframe {
+	margin-bottom: 0;
+}
+
+div.wpcf7 input[type="file"] {
+	cursor: pointer;
+}
+
+div.wpcf7 input[type="file"]:disabled {
+	cursor: default;
+}
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.front-end-panel {
+	position: fixed;
+	z-index: 10000;
+	left:-260px;
+	top:50%;
+	margin-top: -180px;
+	-webkit-transition: all ease 600ms;
+	transition: all ease 600ms;
+	width: 260px;
+	height: 436px;
+	color: #eeeeee;
+	background: #252525;
+	padding: 30px 20px;
+}
+
+.front-end-panel.animate
+{left: 0px;}
+
+.front-end-panel .front-end-trigger {
+	width: 60px;
+	height:60px;
+	right: -60px;
+	position: absolute;
+	text-align: center;
+	background: #252525;
+	cursor: pointer;
+	border-radius: 0;
+}
+
+.front-end-option {
+	border-bottom: 1px solid #333333;
+	padding:20px 0;
+}
+
+.front-end-option:nth-child(3) {
+	border-bottom:none;
+}
+
+.front-end-option-title {
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.front-end-option-colors {
+	padding: 20px 0;
+}
+
+.front-end-option-colors > div {
+	width: 22px;
+	height: 22px;
+	border-radius: 22px;
+	margin-right: 6px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+
+.front-end-option-colors > div:before,
+.boxed-img-option > li:before {
+	color: #fff;
+	text-align: center;
+	width: 22px;
+	height: 22px;
+	border-radius: 22px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "\e8ba";
+	display: block;
+	opacity: 0;
+	-webkit-transition:all.2s ease;
+	transition:all .2s ease;
+	font-family: icomoon !important;
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 22px;
+	font-size: 10px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.boxed-img-option > li {
+	position:relative;
+}
+
+.boxed-img-option > li:before {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	line-height: 20px;
+	top:10px;
+	left:10px;
+	background-color:rgba(255,255,255,0.8);
+	color:#333;
+}
+
+.front-end-option-colors > div:hover:before,
+.front-end-option-colors > div.active:before,
+.boxed-img-option > li:hover:before,
+.boxed-img-option > li.active:before {
+	opacity: 1;
+}
+
+.front-end-option-colors > div:last-child {
+	margin-right: 0px;
+}
+
+.color1 {background-color: #ffb700;}
+.color2 {background-color: #a9ca41;}
+.color3 {background-color: #27d7b9;}
+.color4 {background-color: #00a4ff;}
+.color5 {background-color: #f3450b;}
+.color6 {background-color: #27d73e;}
+.color7 {background-color: #d2994b;}
+.color8 {background-color: #d659b4;}
+
+.front-end-panel .front-end-trigger:before {
+	-webkit-animation: animationFrames linear 10000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-ms-animation: animationFrames linear 10000ms;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
+	animation: animationFrames linear 10000ms;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	background-repeat: no-repeat;
+	background-position:center;
+	width: 60px;
+	height:60px;
+	position: relative;
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: -2px;
+	background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/cog.png);
+}
+
+.front-end-panel .front-end-trigger:hover:before {
+	-webkit-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+
+	.front-end-panel .front-end-trigger:before {
+		background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/cog@2.png);
+		background-size:27px 26px;
+	}
+
+}
+
+@keyframes animationFrames{
+	0% {
+		transform:  rotate(0deg);
+		transition-delay: 0s;
+	}
+	100% {
+		transform:  rotate(1140deg) ;
+		transition-delay: 2s;
+	}
+}
+
+@-webkit-keyframes animationFrames {
+	0% {
+		-webkit-transform:  rotate(0deg);
+		-webkit-transition-delay: 0s;
+	}
+	100% {
+		-webkit-transform:  rotate(1140deg) ;
+		-webkit-transition-delay: 2s;
+	}
+}
+
+@-ms-keyframes animationFrames {
+	0% {
+		-ms-transform:  rotate(0deg);
+		-ms-transition-delay: 0s;
+	}
+	100% {
+		-ms-transform:  rotate(1140deg) ;
+		-ms-transition-delay: 2s;
+	}
+}
+
+
+.front-end-option-layout .layout {
+	display:block;
+	width:100px;
+	height:30px;
+	border-radius:30px;
+	box-shadow:inset  0 0 0 2px #fff;
+	position:relative;
+	margin:0 auto;
+}
+
+.front-end-option-layout .layout:before,
+.front-end-option-layout .layout:after {
+	display:block;
+	content:"Wide";
+	position:absolute;
+	left:-50px;
+	top:50%;
+	height:30px;
+	line-height:30px;
+	margin-top:-15px;
+	font-size:12px;
+}
+
+.front-end-option-layout .layout:after {
+	left:auto;
+	right:-50px;
+	content:"Boxed";
+}
+
+.front-end-option-layout .layout > span {
+	display:block;
+	width:50%;
+	height:100%;
+	float:left;
+	position:relative;
+	cursor:pointer
+}
+
+.front-end-option-layout .layout > span:before {
+	content:"";
+	display:block;
+	width:20px;
+	height:20px;
+	background-color:#fff;
+	border-radius:20px;
+	position:absolute;
+	top:50%;
+	margin-top:-10px;
+	left:5px;
+	opacity:0;
+}
+
+.front-end-option-layout .layout > span.active:before {
+	opacity:1;
+}
+
+.front-end-option-layout .layout > span:last-child:before {
+	right:5px;
+	left:auto;
+}
+
+.front-end-panel ul {
+	list-style:none;
+	margin:0;
+	padding: 0;
+}
+
+.front-end-panel ul li {
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 0 4px 4px 0;
+	cursor: pointer;
+	background-position: left top;
+	background-repeat: repeat;
+}
+
+.front-end-panel ul li:nth-child(5n+5) {margin-right: 0;}
+
+.front-end-panel ul li.image-1,
+.front-end-panel ul li.image-2,
+.front-end-panel ul li.image-3,
+.front-end-panel ul li.image-4,
+.front-end-panel ul li.image-5
+{margin-bottom: 0;}
+
+.dark-skin .front-end-panel ul li
+{border: 1px solid #555;}
+
+.front-end-panel ul li.pattern-1 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/pattetrns/1.jpg) !important;}
+.front-end-panel ul li.pattern-2 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/pattetrns/2.png) !important;}
+.front-end-panel ul li.pattern-3 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/pattetrns/3.png) !important;}
+.front-end-panel ul li.pattern-4 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/pattetrns/4.png) !important;}
+.front-end-panel ul li.pattern-5 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/pattetrns/5.jpg) !important;}
+.front-end-panel ul li.image-1 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/background_images/thumb/1.jpg) !important;}
+.front-end-panel ul li.image-2 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/background_images/thumb/2.jpg) !important;}
+.front-end-panel ul li.image-3 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/background_images/thumb/3.jpg) !important;}
+.front-end-panel ul li.image-4 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/background_images/thumb/4.jpg) !important;}
+.front-end-panel ul li.image-5 {background-image: url(http://ninzio.com/thebuilders/wp-content/plugins/demo-switcher//images/background_images/thumb/5.jpg) !important;}
+
+.front-end-panel ul.image-option li {
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-bottom: 0;
+}
+
+.front-end-admin-alert {
+	position: fixed;
+	width: 400px;
+	height: 70px;
+	top: 50%;
+	left: 50%;
+	margin-top: -35px;
+	margin-left: -200px;
+	display: none;
+	z-index: 99;
+}
