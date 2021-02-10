@@ -23,9 +23,9 @@
                              data-y="['middle','middle','middle','middle']" data-voffset="['-30','-100','-100','-109']"
                              data-fontsize="['62','62','60','36']"
                              data-lineheight="['72','72','70','46']"
-                             data-width="['588','588','720','441']"
+                             data-width="['800','800','800','800']"
                              data-height="['83','83','none','none']"
-                             data-whitespace="normal"
+                             data-whitespace="none"
 
                              data-type="text"
                              data-responsive_offset="on"
@@ -37,7 +37,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">OIL BAY Zambia </div>
+                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: none; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">PTBCSI LAPU LAPU, CEBU </div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -47,8 +47,8 @@
                              data-fontsize="['62','62','60','36']"
                              data-lineheight="['72','72','70','46']"
                              data-width="['1000','1000','720','441']"
-                             data-height="['85','85','165','none']"
-                             data-whitespace="normal"
+                             data-height="['85','85','100','none']"
+                             data-whitespace="none"
 
                              data-type="text"
                              data-responsive_offset="on"
@@ -60,7 +60,10 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">Market Petroleum Products</div>
+                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">
+                                The PTBCSI team consists of a number of CAD qualified Draft People.
+
+                            </div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
