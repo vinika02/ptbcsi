@@ -37,7 +37,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">OIL BAY Zambia </div>
+                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">PTBCSI LAPU LAPU, CEBU </div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -60,7 +60,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">Market Petroleum Products</div>
+                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">Team of CAD qualified Draft People</div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -82,7 +82,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;"> Import, Export and Distribution of Petroleum products </div>
+                             style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;"> Suited to assist you with your <u style="color:#ffb700;"> design</u> and <u style="color:#ffb700;">drafting</u>  needs </div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -103,7 +103,7 @@
                              data-paddingbottom="[15,15,15,15]"
                              data-paddingleft="[45,45,45,45]"
 
-                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Purchase now </div>
+                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"> GET STARTED</div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -132,6 +132,14 @@
                         <img src="{{asset('images/slider/slider_bg2.jpg')}}"  alt="" title="slider_bg2"  width="1600" height="810" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="110" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
+                        <div class="col-sm-5">
+                            <img class="img-fluid animated fadeInDown" src="{{asset("images/slider/plan.png")}}" 
+                            style="z-index:5; width: 550px; height:600px; margin-top:350px"
+                            data-responsive_offset="on"
+
+                            data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeOut"}]'
+                            fluid>
+                        </div>
                         <!-- LAYER NR. 6 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
                              id="slide-6-layer-1"
@@ -152,8 +160,8 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-
-                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">BEST AND PRODUCTIVE </div>
+                            
+                             style="z-index: 5; min-width: 588px; max-width: 588px; max-width: 83px; max-width: 83px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">WE GO ALL THE WAY </div>
 
                         <!-- LAYER NR. 7 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -176,7 +184,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">OIL BAY GROUP </div>
+                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">PTBCSI GROUP </div>
 
                         <!-- LAYER NR. 8 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -198,7 +206,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">Plot 713/158, Bwinjimfumu Road<br>  Rhodespark,<br>  Lusaka. </div>
+                             style="z-index: 7; min-width: 700px; max-width: 700px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">tell me your dream and we can put it on paper </div>
 
                         <!-- LAYER NR. 9 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -219,7 +227,7 @@
                              data-paddingbottom="[15,15,15,15]"
                              data-paddingleft="[45,45,45,45]"
 
-                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Purchase now </div>
+                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"> GET STARTED </div>
 
                         <!-- LAYER NR. 10 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -269,7 +277,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 5; min-width: 1018px; max-width: 1018px; max-width: 84px; max-width: 84px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">OIL BAY Zambia</div>
+                             style="z-index: 5; min-width: 1018px; max-width: 1018px; max-width: 84px; max-width: 84px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 183, 0, 1.00);font-family:Raleway;">PTBCSI GROUP</div>
 
                         <!-- LAYER NR. 12 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -292,7 +300,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">WE ARE THE BEST </div>
+                             style="z-index: 6; min-width: 567px; max-width: 567px; max-width: 85px; max-width: 85px; white-space: normal; font-size: 62px; line-height: 72px; font-weight: 700; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">THE DRAFTERS  </div>
 
                         <!-- LAYER NR. 13 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -314,9 +322,7 @@
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
 
-                             style="z-index: 7; min-width: 450px; max-width: 450px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">  P.O. Box 174, Manda Hill
-                            <br>
-                            Lusaka. </div>
+                             style="z-index: 7; min-width: 450px; max-width: 450px; white-space: normal; font-size: 24px; line-height: 34px; font-weight: 300; color: rgba(255, 255, 255, 1.00);font-family:Raleway;">MEPZ 1 6015 Lapu-Lapu City <br> Cebu - Philippines </div>
 
                         <!-- LAYER NR. 14 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -337,7 +343,7 @@
                              data-paddingbottom="[15,15,15,15]"
                              data-paddingleft="[45,45,45,45]"
 
-                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">Purchase now </div>
+                             style="z-index: 8; white-space: nowrap; font-size: 14px; line-height: 14px; font-weight: 400; color: rgba(255, 255, 255, 1.00);font-family:Montserrat;text-transform:uppercase;background-color:rgba(255, 183, 0, 1.00);border-color:rgba(255, 183, 0, 1.00);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:3px 3px 0px rgba(0,0,0,0.2);box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;"> GET STARTED </div>
 
                         <!-- LAYER NR. 15 -->
                         <div class="tp-caption rev-btn tp-layer-selectable  tp-resizeme"
@@ -549,11 +555,15 @@
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-12">
-                                                    <h3>Get full range of premium Industrial services for your business</h3>
-                                                    <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the                                                 runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.     Capitalize on low hanging fruit to                                                identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from.</p>
+                                                <div class="col-sm-12" style="color:#333333;letter-spacing:2px;size:20px;">
+                                                    <!-- <h3>Get full range of premium Industrial services for your business</h3> -->
+                                                    <!-- <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the                                                 runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.     Capitalize on low hanging fruit to                                                identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from.</p> -->
+                                                    <p>The <span style="color:#BBA036;">TDZ team</span> consists of a number of <span style="color:#BBA036;">CAD qualified</span> Draft People as well
+                                                        as team members with <span style="color:#BBA036;">engineering</span>, <span style="color:#BBA036;">architectural</span> and <span style="color:#BBA036;">building background</span>.</p>
+                                                    <p> As such they are well suited to assist you with your design and drafting needs.</p>
+                                                    <br>
                                                     <button class="btn-lg" style="color:black">Read More</button>
-                                                    <button class="btn-lg" style="background: black;border:2px solid rgb(255, 183, 0)">Company History</button>
+                                                    <!-- <button class="btn-lg" style="background: black;border:2px solid rgb(255, 183, 0)">Company History</button> -->
                                                 </div>
 
                                             </div>

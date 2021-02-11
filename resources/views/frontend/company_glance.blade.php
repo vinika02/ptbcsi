@@ -12,13 +12,13 @@
     <div class="container tile" style="background: white">
         <div class="col-lg-10">
             <p class="paragraph">
-                <b>Oil Bay Zambia Limited (OBZL)</b> is one of the 60 plus Oil Marketing Companies (OMCs) currently registered in Zambia.
+                <b>PTBCSI Zambia Limited (OBZL)</b> is one of the 60 plus Oil Marketing Companies (OMCs) currently registered in Zambia.
                 The company is incorporated on  12 October 2012 under the companies' Act CAP 388 of the Laws of Zambia. It is now fully operational entity in Zambia with the opening of its flagship service station at
                 Mumbwa district near west of the capital Lusaka, in March of 2016.
             </p>
             <br>
             <p class="paragraph">
-                Oil Bay is a private company limited by shares and is involved in the following general market areas:
+                PTBCSI  is a private company limited by shares and is involved in the following general market areas:
             </p>
             <p class="paragraph">
                 <ul>
@@ -74,7 +74,7 @@
             <h4><span class="btn-header">1.3 Keys to Success</span></h4>
             <br>
             <p class="paragraph">
-                Oil Bay has identified the following key variables that we believe are essential to our success:
+                PTBCSI  has identified the following key variables that we believe are essential to our success:
             </p>
             <p class="paragraph">
             <ul>
