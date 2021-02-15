@@ -134,11 +134,8 @@
 
                         <div class="col-sm-5">
                             <img class="img-fluid animated fadeInDown" src="{{asset("images/slider/plan.png")}}" 
-                            style="z-index:5; width: 550px; height:600px; margin-top:350px"
-                            data-responsive_offset="on"
-
-                            data-frames='[{"delay":900,"speed":1000,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeOut"}]'
-                            fluid>
+                            style= "width: 550px; height:600px; position:absolute;top:500px;"
+                            data-responsive_offset="on">
                         </div>
                         <!-- LAYER NR. 6 -->
                         <div class="tp-caption tp-layer-selectable  tp-resizeme"
@@ -619,48 +616,53 @@
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="col-sm-6 pull-right" >
+                                                <!-- <div class="col-sm-6 pull-right" >
                                                     <button class="pull-right btn-lg" style="color:black">All Services</button>
+                                                </div> -->
+
+
+                                            </div>
+
+                                            <section id="service" class="service-area section-gap">
+                                                <h2>What we offer to our clients</h2>
+                                                <p class="p-label">We make your <span style="color:#BBA036;">dreams</span> a reality.</p>
+                                                <div class="container " style="padding-top: 60px">
+                                                    <div class="row">
+                                                        <div class="col-lg-4 col-md-4">
+                                                            <div class="card">
+                                                                <img src="{{asset('images/24hour.png')}}" class="card-img-top" alt="...">
+                                                                <div class="card-body">
+                                                                <h4>24 hours turn-around</h4>
+                                                                <p>Our 24 hours turn-around time on prelim drawings is a real advantage.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4">
+                                                            <div class="card">
+                                                                <img src="{{asset('images/3d.jpg')}}" class="card-img-top">
+                                                                <div class="card-body">
+                                                                <h4><span class="threeD"><a type="button" class="threeD-btn" data-toggle="modal" data-target="#videoModal">3D</a></span> rendering</h4>
+
+                                                                <p>The Drafting Zone can supply you a 3D render. In 3D, it is like seeing the complete building while it is still in the drafting stages.</</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-lg-4 col-md-4">
+                                                            <div class="card">
+                                                                <img src="{{asset('images/concept.jpeg')}}" class="card-img-top" alt="...">
+                                                                <div class="card-body">
+                                                                    <h4>From Concept to Building Consent</h4>
+                                                                    <p>We give the whole service. </p>
+                                                                    <hr>
+                                                                    <p><b>All of this at a <span style="color:#bba036">competitive price</span></b></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
-
-
-                                            </div>
-
-                                            <div class="col-sm-12">
-
-                                                <p > A new normal that has evolved from generation X is on the     runway heading towards a streamlined cloud solution.
-                                                </p>
-
-                                            </div>
-                                            <div class="col-sm-5">
-                                                <img src="{{asset("images/services.jpg")}}">
-                                            </div>
-                                            <div class="col-sm-4">
-                                                <br>
-                                                <br>
-                                                <br>
-                                                <h3>Sample Services</h3>
-                                                <p > A new normal that has evolved from generation X is on the     runway heading towards a streamlined cloud solution.
-                                                </p>
-                                            </div>
-                                            <div class="col-sm-3">
-
-
-                                                <div class="col-sm-12">
-                                                    <button class="btn-lg pull-right" style="background: none;color:black;border:2px solid rgb(255, 183, 0)">01 Sample Services</button>
-                                                </div>
-                                                <div class="col-sm-12">
-                                                    <button class="btn-lg pull-right" style="background: none;color:black;">02</button>
-                                                </div>
-                                                <div class="col-sm-12">
-                                                    <button class="btn-lg pull-right" style="background: none;color:black;">03</button>
-                                                </div >
-                                                <div class="col-sm-12">
-                                                    <button class="btn-lg pull-right" style="background: none;color:black;">04</button>
-                                                </div >
-
-
-                                            </div>
+                                            </section>
+                                            <!-- ========================================== -->
                                         </div>
 
                                         <!-- content end -->
@@ -745,4 +747,33 @@
         <div class="gap nz-clearfix" style="height:20px">&nbsp;</div>
     </div>
 </div>
+
+<style>
+    #service h2{
+        text-align:center;
+        font-weight:bold;
+        letter-spacing:1.5px;
+    }
+    #service .p-label{
+        text-align:center;
+        letter-spacing:1.5px;
+        font-weight:300px;
+        font-size:20px;
+    }
+
+    #service .card{
+        width: 30rem;
+        box-shadow:2.5px 2.5px 1.5px 2.5px #DDDDDD;
+        border-radius:10px;
+        padding:25px;
+        text-align:center;
+        letter-spacing:1.5px;
+        height:390px;
+    }
+
+    #service .card-body h4{
+        font-weight:10px;
+        color:black;
+    }
+</style>
 @endsection
