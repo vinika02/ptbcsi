@@ -18,38 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div id="nz-recent-posts-1" class="widget widget_nz_recent_entries">
-                    <h6 class="widget_title">Recent posts</h6>
-                    <ul>
-
-                        <li class="post-195 post type-post status-publish format-standard has-post-thumbnail hentry category-design tag-design tag-eva tag-external tag-free tag-logo tag-repairing tag-shopping tag-smart">
-                            <div class="post-body">
-                                <a href="http://ninzio.com/thebuilders/2015/09/08/retina-theme-today/" title="Creting Services with The Builders Best Solution For Construct">
-                                    <div class="nz-thumbnail">
-                                        <img width="120" height="150" src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services.jpg")}}" />
-                                        <div class="ninzio-overlay"></div>
-                                    </div>
-                                </a>
-                                <a class="post-title" href="http://ninzio.com/thebuilders/2015/09/08/retina-theme-today/">Creting Services with The Builders Best Solution For Construct</a>
-                                <div class="post-date">September 8, 2015</div>
-                            </div>
-                        </li>
-
-
-                        <li class="post-194 post type-post status-publish format-aside has-post-thumbnail hentry category-marketing tag-design tag-eva tag-external tag-logo tag-marketing tag-ninzio-style tag-painting tag-smart post_format-post-format-aside">
-                            <div class="post-body">
-                                <a href="http://ninzio.com/thebuilders/2015/09/03/repairing-service/" title="Tutorials About How To Repair Wall Using Simple Tools In House">
-                                    <div class="nz-thumbnail">
-                                        <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services1.jpg")}}" sizes="(max-width: 150px) 100vw, 150px" />								<div class="ninzio-overlay"></div>
-                                    </div>
-                                </a>
-                                <a class="post-title" href="http://ninzio.com/thebuilders/2015/09/03/repairing-service/">Tutorials About How To Repair Wall Using Simple Tools In House</a>
-                                <div class="post-date">September 3, 2015</div>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div> -->
+                
                 <div id="mailchimp-1" class="widget widget_mailchimp">
                     <h6 class="widget_title">Subscribe</h6>
                     <div id="mc_embed_signup">
