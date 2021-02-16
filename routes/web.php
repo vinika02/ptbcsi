@@ -22,6 +22,9 @@ Route::get('/home', 'HomeController@frontHome')->name('home');
 Route::get('/frontHome', 'FrontEndController@frontHome')->name('frontHome');
 Route::get('/companyGlance', 'FrontEndController@companyGlance')->name('companyGlance');
 
+Route::get('signin', 'SigninController@index');
+
+
 
 Route::get('/optimize', function() {
     $exitCode = Artisan::call('optimize');
