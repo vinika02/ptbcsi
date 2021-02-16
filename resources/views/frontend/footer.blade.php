@@ -1,6 +1,6 @@
 <!-- footer start -->
 <footer class='footer'>
-    <div class="footer-wa footer-columns-4 nz-clearfix">
+    <div class="footer-wa footer-columns-3 nz-clearfix">
         <div class="container">
             <aside class="footer-widget-area widget-area nz-clearfix">
                 <div id="text-2" class="widget widget_text">			<div class="textwidget"> <img  style="max-width:284px;max-height:70px;margin-top:-50px" src="{{asset('images/brand.png')}}" >
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="nz-recent-posts-1" class="widget widget_nz_recent_entries">
+                <!-- <div id="nz-recent-posts-1" class="widget widget_nz_recent_entries">
                     <h6 class="widget_title">Recent posts</h6>
                     <ul>
 
@@ -49,7 +49,7 @@
                         </li>
 
                     </ul>
-                </div>
+                </div> -->
                 <div id="mailchimp-1" class="widget widget_mailchimp">
                     <h6 class="widget_title">Subscribe</h6>
                     <div id="mc_embed_signup">
@@ -68,42 +68,42 @@
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/max-project/" title="Max Project">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services1.jpg")}}"  style="height: 70px !important;"  />
+                                    <img width="150" height="150"  src="{{asset("images/project1.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/project2.jpg")}}"  style="height: 70px !important;"  />
                                 </div>
                             </a>
                         </div>
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/thebuilders-the-great/" title="Montserrat The Great">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services1.jpg")}}"  style="height: 70px !important;"  />
+                                    <img width="150" height="150"  src="{{asset("images/project2.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/project3.jpg")}}"  style="height: 70px !important;"  />
                                 </div>
                             </a>
                         </div>
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/customer-care/" title="Customer Care">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services.jpg")}}"  style="height: 70px !important;"  />
+                                    <img width="150" height="150"  src="{{asset("images/project3.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/project4.jpg")}}"  style="height: 70px !important;"  />
                                 </div>
                             </a>
                         </div>
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/jurong-logistics-hub/" title="Jurong Hub">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services1.jpg")}}"  style="height: 70px !important;"  />
+                                    <img width="150" height="150"  src="{{asset("images/project4.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/project5.jpg")}}"  style="height: 70px !important;"  />
                                 </div>
                             </a>
                         </div>
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/painting-and-repairing/" title="Mapletree Benoi">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/services.jpg")}}"  style="height: 70px !important;"  />
+                                    <img width="150" height="150"  src="{{asset("images/project5.jpg")}}" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" srcset="{{asset("images/project6.jpg")}}"  style="height: 70px !important;"  />
                                 </div>
                             </a>
                         </div>
                         <div class="post nz-clearfix">
                             <a href="http://ninzio.com/thebuilders/projects/old-building-repairing/" title="Mapletree Wuxi">
                                 <div class="nz-thumbnail">
-                                    <img width="150" height="150"  src="{{asset("images/services.jpg")}}"  alt="" srcset="{{asset("images/services1.jpg")}}"  style="height: 70px !important;" />
+                                    <img width="150" height="150"  src="{{asset("images/project6.jpg")}}"  alt="" srcset="{{asset("images/project1.jpg")}}"  style="height: 70px !important;" />
                                 </div>
                             </a>
                         </div>
