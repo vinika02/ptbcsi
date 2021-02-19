@@ -16,4 +16,8 @@ class FrontEndController extends Controller
        return view('frontend.company_glance');
     }
 
+    public function projects(){
+        return view('frontend.projects');
+    }
+
 }

@@ -21,6 +21,8 @@ Route::get('/', 'FrontEndController@frontHome');
 Route::get('/home', 'HomeController@frontHome')->name('home');
 Route::get('/frontHome', 'FrontEndController@frontHome')->name('frontHome');
 Route::get('/companyGlance', 'FrontEndController@companyGlance')->name('companyGlance');
+Route::get('/projects', 'FrontEndController@projects')->name('projects');
+
 
 Route::get('signin', 'SigninController@index');
 
